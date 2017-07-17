@@ -1,0 +1,62 @@
+# Risk territory information
+# Territory Name ; Continent ; Adjacent territories delimited by comma ; shape information delmited by comma ; unit label offset
+#
+# North America
+#
+Greenland;North America;Northwest Territory,Central Canada,Eastern Canada,Iceland;northamerica/greenland.map;10,-20
+Alaska;North America;Northwest Territory,Western Canada,Kamchatka;northamerica/alaska.map;0,-15
+Northwest Territory;North America;Alaska,Greenland,Western Canada,Central Canada;northamerica/northwest-territory.map;0,25
+Western Canada;North America;Alaska,Northwest Territory,Central Canada,Western United States;northamerica/western-canada.map;10,0
+Central Canada;North America;Northwest Territory,Western Canada,Greenland,Eastern Canada,Western United States,Eastern United States;northamerica/central-canada.map;-10,0
+Eastern Canada;North America;Central Canada,Greenland,Eastern United States;northamerica/eastern-canada.map;-10,0
+Western United States;North America;Western Canada,Central Canada,Eastern United States,Central America;northamerica/western-us.map;0,0
+Eastern United States;North America;Central Canada,Eastern Canada,Western United States,Central America;northamerica/eastern-us.map;0,10
+Central America;North America;Western United States,Eastern United States,Venezuela;northamerica/central-america.map;-10,-25
+#
+# South America
+#
+Venezuela;South America;Central America,Peru,Brazil;southamerica/venezuela.map;-10,-10
+Peru;South America;Venezuela,Brazil,Argentina;southamerica/peru.map;0,10
+Argentina;South America;Peru,Brazil;southamerica/argentina-main.map,southamerica/argentina-isle1.map,southamerica/argentina-isle2.map;-20,0
+Brazil;South America;Venezuela,Peru,Argentina,North Africa;southamerica/brazil.map;20,-20
+#
+# Europe
+#
+Iceland;Europe;Greenland,Great Britain,Scandinavia;europe/iceland.map;0,5
+Scandinavia;Europe;Iceland,Ukraine,Northern Europe;europe/scandinavia.map;0,-15
+Ukraine;Europe;Scandinavia,Northern Europe,Southern Europe,Middle East,Ural,Afghanistan;europe/ukraine.map;0,0
+Great Britain;Europe;Iceland,Scandinavia,Northern Europe,Western Europe;europe/great-britain.map,europe/ireland.map;18,25
+Northern Europe;Europe;Great Britain,Scandinavia,Western Europe,Ukraine,Southern Europe;europe/northern-europe.map;0,0
+Western Europe;Europe;Great Britain,Northern Europe,Southern Europe,North Africa;europe/western-europe.map;10,0
+Southern Europe;Europe;Western Europe,Northern Europe,Ukraine,Middle East,North Africa,Egypt;europe/southern-europe.map;0,-10
+#
+# Africa
+#
+North Africa;Africa;Brazil,Western Europe,Southern Europe,Egypt,East Africa,Congo;africa/north-africa.map;0,0
+Egypt;Africa;Southern Europe,Middle East,North Africa,East Africa;africa/egypt.map;0,0
+East Africa;Africa;Egypt,Middle East,Congo,South Africa,Madagascar;africa/east-africa.map;0,-30
+Congo;Africa;North Africa,East Africa,South Africa;africa/congo.map;0,0
+South Africa;Africa;Congo,East Africa,Madagascar;africa/south-africa.map;-5,0
+Madagascar;Africa;South Africa,East Africa;africa/madagascar.map;0,0
+#
+# Asia
+#
+Ural;Asia;Ukraine,Afghanistan,Siberia;asia/ural.map;-10,10
+Siberia;Asia;Ural,Yakutsk,Irkutsk,China;asia/siberia.map;10,-10
+Yakutsk;Asia;Siberia,Irkutsk,Kamchatka,Mongolia;asia/yakutsk.map;-5,0
+Kamchatka;Asia;Alaska,Yakutsk,Irkutsk,Japan,Mongolia;asia/kamchatka.map;0,-70
+Irkutsk;Asia;Siberia,Yakutsk,Kamchatka,Mongolia;asia/irkutsk.map;0,0
+Mongolia;Asia;Siberia,Irkutsk,Kamchatka,Japan,China;asia/mongolia.map;0,10
+Japan;Asia;Kamchatka,Mongolia;asia/japan.map,asia/japan-isle1.map,asia/japan-isle2.map,asia/japan-isle3.map;18,7
+Afghanistan;Asia;Ukraine,Ural,China,Middle East,India;asia/afghanistan.map;0,0
+China;Asia;Afghanistan,Ural,Siberia,Mongolia,Middle East,India,Siam;asia/china.map;0,0
+Middle East;Asia;Southern Europe,Ukraine,Afghanistan,India,Egypt,East Africa;asia/middle-east.map;0,0
+India;Asia;Middle East,Afghanistan,China,Siam;asia/india.map;0,-20
+Siam;Asia;India,China,Indonesia;asia/siam.map;0,-10
+#
+#Australia
+#
+Indonesia;Australia;Siam,New Guinea,Western Australia;australia/indonesia-isle1.map,australia/indonesia-isle2.map,australia/indonesia-isle3.map,australia/indonesia-isle4.map;12,0
+Western Australia;Australia;Indonesia,Eastern Australia,New Guinea;australia/western-australia.map;-10,0
+Eastern Australia;Australia;Western Australia,New Guinea;australia/eastern-australia.map;20,0
+New Guinea;Australia;Indonesia,Western Australia,Eastern Australia;australia/new-guinea.map;5,0
